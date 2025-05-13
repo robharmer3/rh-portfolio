@@ -1,8 +1,11 @@
 function ProjectCard() {
   return (
-    <>
-      <p>Placeholder project info</p>
-    </>
+    <div id="project">
+      <h3>Project Title</h3>
+      <p>Project Date</p>
+      <p>Project Overview</p>
+      <p>Tech Stack</p>
+    </div>
   );
 }
 

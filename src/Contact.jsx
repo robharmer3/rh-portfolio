@@ -5,10 +5,18 @@ function Contact() {
   return (
     <>
       <h2>Contact Me</h2>
-      <IonIcon name="call-outline"></IonIcon>
-      <p>07828 125 693</p>
-      <IonIcon name="mail-outline"></IonIcon>
-      <p>rob.harmer3@gmail.com</p>
+      <p>
+        <IonIcon name="call-outline"></IonIcon>
+        07828 125 693
+      </p>
+      <p>
+        <IonIcon name="mail-outline"></IonIcon>
+        rob.harmer3@gmail.com
+      </p>
+      <p>
+        <IonIcon name="location-outline"></IonIcon>
+        Bolton, Lancashire
+      </p>
       <CVButton />
     </>
   );

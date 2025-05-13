@@ -1,3 +1,9 @@
 #CVButton {
   margin: 30px;
 }
+
+#project {
+  margin-top: 20px;
+  padding: 10px;
+  border: solid 1px blue;
+}

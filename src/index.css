@@ -40,7 +40,6 @@ h2 {
   width: 100%;
   overflow: hidden;
   background-color: lightseagreen;
-  /* border: solid blue; */
 }
 #nav-bar li {
   float: left;
@@ -63,6 +62,7 @@ footer {
   overflow: hidden;
   background-color: lightseagreen;
   /* border: solid blue; */
+  padding: 14px 16px;
 }
 footer li {
   display: inline;
