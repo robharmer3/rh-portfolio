@@ -1,8 +1,11 @@
+import CVButton from "./Features/CV-Button";
+
 function Home() {
   return (
     <>
       <h2>Home</h2>
-      <p>Home placeholde text</p>
+      <p>Home placeholder text</p>
+      <CVButton />
     </>
   );
 }

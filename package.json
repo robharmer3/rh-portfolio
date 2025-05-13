@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reacticons/ionicons": "^7.1.0",
     "@tailwindcss/vite": "^4.1.6",
     "bootstrap": "^5.3.6",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
+    "react-ionicons": "^1.5.7",
     "react-router": "^7.6.0",
     "react-router-dom": "^7.6.0",
     "tailwindcss": "^4.1.6"

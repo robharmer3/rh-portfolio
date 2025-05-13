@@ -1,8 +1,11 @@
+import CVButton from "./Features/CV-Button";
+
 function About() {
   return (
     <>
       <h2>About</h2>
-      <p>Placeholder info</p>
+      <p>About placeholder info</p>
+      <CVButton />
     </>
   );
 }
