@@ -1,7 +1,8 @@
 function Home() {
   return (
     <>
-      <p>Software Developer & former Mechanical Engineer</p>
+      <h2>Home</h2>
+      <p>Home placeholde text</p>
     </>
   );
 }

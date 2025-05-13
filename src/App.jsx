@@ -5,22 +5,23 @@ import About from "./About";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
   return (
     <>
       <header>
         <NavBar />
-        <Header />
       </header>
-      <main>
+      <body>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </main>
+      </body>
       <footer>
-        <p>Follow me on:</p>
+        <Footer />
       </footer>
     </>
   );
