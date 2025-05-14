@@ -1,4 +1,3 @@
-/* @import "tailwindcss"; */
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +11,8 @@
   color: rgb(0, 0, 0);
   background-color: lightsteelblue;
 
-  max-width: 1280px;
   padding: 2rem;
+  width: 100%;
   text-align: center;
 }
 

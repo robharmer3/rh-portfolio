@@ -5,7 +5,7 @@ function Home() {
     <>
       <h2>Home</h2>
       {/* <img src="" alt="" /> */}
-      <p>Welcome to my coding portfolio</p>
+      <p>Aspiring Software Developer</p>
       <CVButton />
     </>
   );
