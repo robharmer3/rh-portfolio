@@ -15,7 +15,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <body>
+      <section>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contact />} />
         </Routes>
-      </body>
+      </section>
       <footer>
         <Footer />
       </footer>
