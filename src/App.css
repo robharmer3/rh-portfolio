@@ -7,6 +7,9 @@
   padding: 10px;
   border: solid 1px blue;
 }
+#project h3 {
+  background-color: red;
+}
 
 #home-section {
   padding-top: 10px;
