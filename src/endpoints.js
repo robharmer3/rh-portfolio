@@ -5,8 +5,13 @@ const apiClient = axios.create({
 });
 
 export function getProjects() {
-  return apiClient.get("/").then(({ data }) => {
-    console.log(data);
+  return apiClient.get("/projects").then(({ data }) => {
+    return data;
+  });
+}
+
+export function getCategories() {
+  return apiClient.get("/categories").then(({ data }) => {
     return data;
   });
 }

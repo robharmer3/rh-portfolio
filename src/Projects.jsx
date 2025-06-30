@@ -1,14 +1,29 @@
+import { useEffect, useState } from "react";
 import AllProjects from "./Project/ProjectAll";
 import ProjectCard from "./Project/ProjectCard";
+import { getCategories } from "./endpoints";
 
 function Projects() {
+  const [allProjects, setAllProjects] = useState([]);
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    getCategories().then(({ categories }) => {
+      setCategories(categories);
+    });
+  }, []);
+
   return (
     <>
-      <AllProjects />
       <h2>Projects</h2>
+      <AllProjects
+        allProjects={allProjects}
+        setAllProjects={setAllProjects}
+        categories={categories}
+      />
+      {/* <ProjectCard />
       <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+      <ProjectCard /> */}
     </>
   );
 }

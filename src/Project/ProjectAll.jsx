@@ -1,18 +1,31 @@
 import { useEffect, useState } from "react";
 import { getProjects } from "../endpoints";
+import ProjectCard from "./ProjectCard";
 
-export default function AllProjects() {
-  const [allProjects, setAllProjects] = useState([]);
+export default function AllProjects({
+  allProjects,
+  setAllProjects,
+  categories,
+}) {
   useEffect(() => {
     getProjects().then(({ projects }) => {
-      console.log(projects);
       setAllProjects(projects);
     });
   }, []);
 
   return (
     <>
-      <p>All Projects - hellofrom ProjectAll</p>
+      <ul>
+        {allProjects.map((project) => {
+          return (
+            <ProjectCard
+              key={project.project_id}
+              project={project}
+              categories={categories}
+            />
+          );
+        })}
+      </ul>
     </>
   );
 }
