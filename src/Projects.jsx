@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AllProjects from "./Project/ProjectAll";
 import ProjectCard from "./Project/ProjectCard";
 import { getCategories } from "./endpoints";
+import ProjectFilter from "./More BE Required/ProjectFilter";
 
 function Projects() {
   const [allProjects, setAllProjects] = useState([]);
@@ -16,6 +17,7 @@ function Projects() {
   return (
     <>
       <h2>Projects</h2>
+      {/* <ProjectFilter categories={categories} /> */}
       <AllProjects
         allProjects={allProjects}
         setAllProjects={setAllProjects}

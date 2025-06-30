@@ -15,3 +15,9 @@ export function getCategories() {
     return data;
   });
 }
+
+export function getSingleProject(project_id) {
+  return apiClient.get(`/projects/${project_id}`).then(({ data }) => {
+    return data;
+  });
+}
