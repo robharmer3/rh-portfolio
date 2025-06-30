@@ -22,7 +22,7 @@ function Contact() {
           <IonIcon name="location-outline"></IonIcon>
           <p>Bolton, Lancashire</p>
         </p>
-        <CVButton />s
+        <CVButton />
       </section>
     </>
   );

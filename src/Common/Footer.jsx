@@ -6,8 +6,11 @@ const gitHub = "https://github.com/robharmer3";
 function Footer() {
   return (
     <>
-      <p>Follow me on:</p>
+      {/* <p>Follow me on:</p> */}
       <ul>
+        <li>
+          <Link to="/contacts">Contact Me</Link>
+        </li>
         <li>
           <Link to={linkedin}>LinkedIn</Link>
         </li>

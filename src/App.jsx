@@ -9,6 +9,8 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import ProjectSingle from "./Project/ProjectSingle";
+import Skill from "./Skills";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:project_id" element={<ProjectSingle />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/contacts" element={<Contact />} />
         </Routes>
       </section>
