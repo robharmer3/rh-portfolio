@@ -39,6 +39,7 @@ h2 {
   width: 100%;
   overflow: hidden;
   background-color: lightseagreen;
+  text-align: center;
 }
 #nav-bar li {
   float: left;

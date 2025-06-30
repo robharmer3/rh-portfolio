@@ -14,7 +14,7 @@ export default function NavBar() {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/skills">SKill Set</Link>
+          <Link to="/skills">Skill Set</Link>
         </li>
       </ul>
     </nav>
