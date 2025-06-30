@@ -7,3 +7,11 @@
   padding: 10px;
   border: solid 1px blue;
 }
+
+#home-section {
+  padding-top: 10px;
+}
+
+#home-section ul {
+  list-style-type: none;
+}
