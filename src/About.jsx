@@ -3,41 +3,39 @@ import CVButton from "./Features/CV-Button";
 function About() {
   return (
     <>
-      <h2>About</h2>
-      <p>Here is a little more about me!</p>
       <section id="home-section">
-        <h3>About me...👋</h3>
-        <ul>
-          <li>
-            💻 Aspiring Software Developer. Back-End (JavaScript, Node.js).
-            Front-End (React, React Native, CSS)
-          </li>
-          <li>🎓 Northcoder Graduate. Janurary 2025 Cohort.</li>
-          <li>
-            📜 Mechanical Engineering Degree from the University of Bolton (now
-            known as the University of Greater Manchester).
-          </li>
-          <li>
-            💏 Husband to my beautiful wife. Father to my amazing daugther.
-          </li>
-          😸 Slightly cat mad! I have 3!!!
-        </ul>
+        <h3>About me...</h3>
+        <p>
+          I am an aspiring software develop, who has recently graduate from
+          Northcoders' JavaScript Bootcamp, as part of their Janaury 2025
+          Cohort.
+        </p>
+        <p>
+          Previously I was a Project Engineering with a degree in Mechanical
+          Engineering from the University of Bolton.
+        </p>
+        <p>
+          As an mechanical engineer, I have worked in various industries and
+          dealt with my different producting includeing: expansion joint,
+          furniture, motorcylces, and commerical trucks.
+        </p>
       </section>
       <section id="home-section">
-        <h3>Coding...🎮</h3>
-        <p>Current working on:</p>
-        <ul>
-          <li>Portofilio site</li>
-          <li>Top-trump style game (witty name still TBD)</li>
-        </ul>
+        <h3>Why coding..?</h3>
+        <p>
+          I choose to change my career and become a software developer
+          because....
+        </p>
       </section>
+
       <section id="home-section">
-        <h3>Hobbies...✨</h3>
+        <h3>Hobbies...</h3>
         <ul>
-          <li>Coding 💻</li>
-          <li>Hockey 🏑</li>
-          <li>Food 🥞</li>
-          <li>Cats 😸</li>
+          <li>Coding 💻 - My new passion</li>
+          <li>
+            Hockey 🏑 - My other passtime that I've been doing for 12(ish) years
+          </li>
+          <li>Cats 😸 - I may be slightly cat mad!</li>
         </ul>
       </section>
       <CVButton />

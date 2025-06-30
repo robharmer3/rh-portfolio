@@ -13,8 +13,9 @@
 
 #home-section {
   padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: left;
 }
-
 #home-section ul {
   list-style-type: none;
 }
