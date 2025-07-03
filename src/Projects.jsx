@@ -6,8 +6,6 @@ import ProjectFilter from "./More BE Required/ProjectFilter";
 import useFetchApi from "./endpoints Hook";
 
 function Projects() {
-  const [allProjects, setAllProjects] = useState([]);
-
   const { isLoading, isError, data } = useFetchApi(getCategories);
   const { categories } = data;
 

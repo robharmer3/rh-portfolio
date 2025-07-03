@@ -9,7 +9,6 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import ProjectSingle from "./Project/ProjectSingle";
-
 import Skills from "./Skills";
 
 function App() {
