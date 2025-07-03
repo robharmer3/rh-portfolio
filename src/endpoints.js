@@ -21,3 +21,9 @@ export function getSingleProject(project_id) {
     return data;
   });
 }
+
+export function getSkills() {
+  return apiClient.get(`/skills`).then(({ data }) => {
+    return data;
+  });
+}
