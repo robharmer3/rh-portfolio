@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-bottom: 10px;
 }
 
@@ -39,13 +39,13 @@ h2 {
   width: 100%;
   overflow: hidden;
   background-color: lightseagreen;
-  text-align: center;
+  padding: 14px 16px;
 }
 #nav-bar li {
-  float: left;
-  display: block;
+  float: center;
+  display: inline;
   text-align: center;
-  padding: 14px 16px;
+  padding: 3%;
   text-decoration: none;
 }
 #nav-bar :hover {
