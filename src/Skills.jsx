@@ -22,7 +22,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 1) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -30,7 +30,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 2) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -38,7 +38,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 3) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -46,7 +46,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 4) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -54,7 +54,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 5) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -62,7 +62,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 6) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -70,7 +70,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 7) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
@@ -78,7 +78,7 @@ export default function Skills() {
         <ul>
           {skills.map((skill) => {
             if (skill.category === 8) {
-              return <li>{skill.title}</li>;
+              return <li key={skill.skill_id}>{skill.title}</li>;
             }
           })}
         </ul>
