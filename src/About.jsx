@@ -6,7 +6,7 @@ function About() {
       <section id="home-section">
         <h3>About me...</h3>
         <p>
-          I am an aspiring software develop, who has recently graduate from
+          I am an aspiring software developer, who has recently graduate from
           Northcoders' JavaScript Bootcamp, as part of their Janaury 2025
           Cohort.
         </p>
@@ -23,8 +23,19 @@ function About() {
       <section id="home-section">
         <h3>Why coding..?</h3>
         <p>
-          I choose to change my career and become a software developer
-          because....
+          I have also had a interest in how things work and with the latest
+          technologies. This originally lead me into mechanical engieering, but
+          due to setbacks like redundancies and never filling fufilled I felt
+          the time was right to purse alternatives. After a friend introduced me
+          to the wonderful world of coding, I found my new passion.
+        </p>
+        <p>
+          After dabberling on CodeWars and being made redundate (again), I knew
+          I had to take the plunge and complete Northcoders JavaScript bootcamp.
+        </p>
+        <p>
+          I am now looking to continue my exciting journey and land my first
+          role within the tech industry!
         </p>
       </section>
 

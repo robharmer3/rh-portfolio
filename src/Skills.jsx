@@ -1,3 +1,5 @@
+import Error from "./Common/Error";
+import Loading from "./Common/Loading";
 import { getSkills } from "./endpoints";
 import useFetchApi from "./endpoints Hook";
 
@@ -7,11 +9,11 @@ export default function Skills() {
   console.log(skills);
 
   if (isLoading) {
-    return <p>...loading</p>;
+    return <Loading />;
   }
 
   if (isError) {
-    return <p>ERROR!</p>;
+    return <Error />;
   }
 
   if (skills) {

@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import Error from "./Common/Error";
+import Loading from "./Common/Loading";
 import AllProjects from "./Project/ProjectAll";
-import ProjectCard from "./Project/ProjectCard";
 import { getCategories } from "./endpoints";
-import ProjectFilter from "./More BE Required/ProjectFilter";
 import useFetchApi from "./endpoints Hook";
 
 function Projects() {
@@ -10,11 +9,11 @@ function Projects() {
   const { categories } = data;
 
   if (isLoading) {
-    return <p>...loading</p>;
+    return <Loading />;
   }
 
   if (isError) {
-    return <p>ERROR!</p>;
+    return <Error />;
   }
 
   if (categories) {
