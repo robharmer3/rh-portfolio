@@ -28,8 +28,8 @@ export function getSkills() {
   });
 }
 
-// export function getSkillsCategories() {
-//   return apiClient.get(`/skills`).then(({ data }) => {
-//     return data;
-//   });
-// }
+export function getSkillsCategories() {
+  return apiClient.get(`/skills/categories`).then(({ data }) => {
+    return data;
+  });
+}

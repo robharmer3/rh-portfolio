@@ -1,23 +1,27 @@
 import Error from "./Common/Error";
 import Loading from "./Common/Loading";
+import { getSkillsCategories } from "./endpoints";
 import useFetchApi from "./endpoints Hook";
 
 export default function Skills() {
-  //   const { isLoading, isError, data } = useFetchApi();
+  const { isLoading, isError, data } = useFetchApi(getSkillsCategories);
+  const { skillCategories } = data;
 
-  //   if (isLoading) {
-  //     return <Loading />;
-  //   }
+  console.log(skillCategories);
 
-  //   if (isError) {
-  //     return <Error />;
-  //   }
+  if (isLoading) {
+    return <Loading />;
+  }
 
-  //   if (data) {
-  return (
-    <>
-      <h2>Skills</h2>
-    </>
-  );
-  //   }
+  if (isError) {
+    return <Error />;
+  }
+
+  if (skillCategories) {
+    return (
+      <>
+        <h2>Skills</h2>
+      </>
+    );
+  }
 }
