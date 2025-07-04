@@ -3,7 +3,7 @@ import Error from "../Common/Error";
 import Loading from "../Common/Loading";
 import { getSkills } from "../endpoints";
 import useFetchApi from "../endpoints Hook";
-import SkillCard from "./SkillsCard";
+import SkillCard from "./SkillsCatCard";
 
 export default function AllSkills() {
   const { isLoading, isError, data } = useFetchApi(getSkills);
@@ -42,7 +42,6 @@ export default function AllSkills() {
   if (skills) {
     return (
       <>
-        <h2>Skills</h2>
         <div style={{ width: "100%", height: "100%", position: "relative" }}>
           <div style={{ width: "100%", height: "100%", display: "block" }}>
             {skills.map((skill) => {

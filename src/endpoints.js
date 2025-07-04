@@ -11,7 +11,7 @@ export function getProjects() {
 }
 
 export function getCategories() {
-  return apiClient.get("/categories").then(({ data }) => {
+  return apiClient.get("/projects/categories").then(({ data }) => {
     return data;
   });
 }
