@@ -34,8 +34,5 @@
   display: block;
   flex-shrink: 0;
   flex-grow: 0;
-}
-.skills ul {
   border: solid blue;
-  list-style-type: none;
 }

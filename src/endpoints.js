@@ -27,3 +27,9 @@ export function getSkills() {
     return data;
   });
 }
+
+// export function getSkillsCategories() {
+//   return apiClient.get(`/skills`).then(({ data }) => {
+//     return data;
+//   });
+// }
