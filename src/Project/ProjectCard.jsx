@@ -8,7 +8,7 @@ function ProjectCard({ project, categories, index }) {
       </h3>
       <p>Project Overview: {project.description}</p>
       <p>Project Category: {categories[project.category - 1].title}</p>
-      <p>Tech Stack: </p>
+      {/* <p>Tech Stack: </p> */}
       <p>{project.link}</p>
     </div>
   );
