@@ -10,7 +10,7 @@ function Home() {
         My name is Rob, and I may looking to learn new skills in the world of
         coding!
       </p>
-      <CVButton />
+      {/* <CVButton /> */}
     </>
   );
 }

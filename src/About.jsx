@@ -49,7 +49,7 @@ function About() {
           <li>Cats 😸 - I may be slightly cat mad!</li>
         </ul>
       </section>
-      <CVButton />
+      {/* <CVButton /> */}
     </>
   );
 }
