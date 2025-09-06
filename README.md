@@ -1,20 +1,24 @@
-# Hi, my name is Rob Harmer
-## Software Developer!
+# My Portfolio
+## Front End
 
-## About me...👋
-- 💻 Aspiring Software Developer. Back-End (JavaScript, Node.js). Front-End (React, React Native, CSS)
-- 🎓 Northcoder Graduate. Janurary 2025 Cohort.
-- 📜 Mechanical Engineering Degree from the University of Bolton (now known as the University of Greater Manchester).
-- 💏 Husband to my beautiful wife. Father to my amazing daugther.
-- 😸 Slightly cat mad! I have 3!!!
+## Description
+This is the Front End section of my portfolio application.
+The application showcases the projects that I have attempted on my journey as a Software Developer that started at Northcoders.
 
-## Coding...🎮
-- Current working on:
-      - This portofilio site 
-      - Top-trump style game (name still TBD)
+The Back End section to this application can be found here: https://github.com/robharmer3/rh-portfolio-be
 
-## Hobbies...✨
-- Coding 💻
-- Hockey 🏑
-- Food 🥞
-- Cats 😸
+The tech that I have used for this application is:
+- React
+- Axios
+- CSS
+- HTML
+- Node.js
+
+## How to use it?
+The application is live here at this link:
+https://rmhportfolio.netlify.app/
+
+But to run the application locally, please follow these instructions:
+1. Code the repo
+2. Run "npm install"
+3. Run "npm run dev"
