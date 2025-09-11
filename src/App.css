@@ -36,3 +36,19 @@
   flex-grow: 0;
   border: solid blue;
 }
+
+#profile-pic {
+  float: left;
+  border-radius: 25px;
+  max-width: 50%;
+  /* max-height: 100%; */
+}
+
+#home-page {
+  float: right;
+  /* max-width: 50%; */
+  max-height: 100%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
